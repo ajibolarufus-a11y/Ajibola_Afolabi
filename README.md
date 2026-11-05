@@ -1,7 +1,7 @@
 # Advanced Database Systems Portfolio (MIT 8103)
 
 **Course:** MIT 8103 Advanced Database Systems, 2026/2027 First Semester
-**Student:** [Your Full Name] ([Your Matric Number])
+**Student:** Ajibola Afolabi (301918643)
 
 ## Selected Organisation
 
@@ -24,21 +24,21 @@ All five portfolios use this same case study.
 
 | Portfolio | Topic | Folder | Key result |
 |---|---|---|---|
-| 1 | Database design and modelling | [portfolio-1-database-design](portfolio-1-database-design/) | 3 tables in 3NF; keys and constraints proven with 23505, 23503 and 23514 errors |
-| 2 | Query processing and optimisation | [portfolio-2-query-optimisation](portfolio-2-query-optimisation/) | Composite index cut a query from 41.622 ms (Seq Scan) to 1.735 ms (Index Scan) |
-| 3 | Transactions and concurrency | [portfolio-3-transactions-concurrency](portfolio-3-transactions-concurrency/) | COMMIT/ROLLBACK; lost update (99,500 vs 98,500) fixed with `FOR UPDATE`; isolation levels compared |
-| 4 | NoSQL and advanced data models | [portfolio-4-nosql](portfolio-4-nosql/) | JSONB with GIN index; MongoDB `fraud_alerts` collection |
-| 5 | Distributed and cloud database | [portfolio-5-distributed-cloud](portfolio-5-distributed-cloud/) | Hash partitioning into 4 partitions with pruning; replication and CAP discussed |
+| 1 | Database design and modelling | [AJibola_Afolabiportfolio-1-database-design](AJibola_Afolabiportfolio-1-database-design/) | 3 tables in 3NF; keys and constraints proven with 23505, 23503 and 23514 errors |
+| 2 | Query processing and optimisation | [AJibola_Afolabi_portfolio-2-query-optimisation](AJibola_Afolabi_portfolio-2-query-optimisation/) | Composite index cut a query from 41.622 ms (Seq Scan) to 1.735 ms (Index Scan) |
+| 3 | Transactions and concurrency | [AJibola_Afolabi_portfolio-3-transactions-concurrency](AJibola_Afolabi_portfolio-3-transactions-concurrency/) | COMMIT/ROLLBACK; lost update (99,500 vs 98,500) fixed with `FOR UPDATE`; isolation levels compared |
+| 4 | NoSQL and advanced data models | [AJibola_Afolabi_portfolio-4-nosql](AJibola_Afolabi_portfolio-4-nosql/) | JSONB with GIN index; MongoDB `fraud_alerts` collection |
+| 5 | Distributed and cloud database | AJibola_Afolabi_[portfolio-5-distributed-cloud](AJibola_Afolabi_portfolio-5-distributed-cloud/) | Hash partitioning into 4 partitions with pruning; replication and CAP discussed |
 
 ## Repository Structure
 
 ```
 advanced-database-portfolio/
-├── portfolio-1-database-design/
-├── portfolio-2-query-optimisation/
-├── portfolio-3-transactions-concurrency/
-├── portfolio-4-nosql/
-├── portfolio-5-distributed-cloud/
+├── AJibola_Afolabiportfolio-1-database-design/
+├── AJibola_Afolabi_portfolio-2-query-optimisation/
+├── AJibola_Afolabi_portfolio-3-transactions-concurrency/
+├── AJibola_Afolabi_portfolio-4-nosql/
+├── AJibola_Afolabi_portfolio-5-distributed-cloud/
 └── README.md
 ```
 
