@@ -1,0 +1,31 @@
+Portfolio 4 (Part B): MongoDB Atlas queries (NovaBank)
+Database: novabank
+Collection: fraud_alerts (4 documents, see fraud_alerts.json)
+
+Queries were run in the Atlas "Browse Collections" Filter box.
+
+------------------------------------------------------------
+Query 1: all high-severity alerts
+Filter:
+    { "severity": "high" }
+
+Result: 2 documents
+    - account 500, alert_type "large_transfer", amount 450000, status "open"
+    - account 500, alert_type "foreign_login", status "resolved"
+
+Screenshot: screenshots/06-atlas-severity-query.png
+
+------------------------------------------------------------
+Query 2: alerts raised in Lagos (searches inside the nested "location" object)
+Filter:
+    { "location.city": "Lagos" }
+
+Result: 1 document
+    - account 500, alert_type "large_transfer"
+
+Screenshot: screenshots/07-atlas-nested-query.png
+
+------------------------------------------------------------
+Note: the four documents do not all have the same fields. Only some have
+"amount", "attempts", "notes" or "resolved_by". MongoDB stores each
+document as it is, with no schema change needed.

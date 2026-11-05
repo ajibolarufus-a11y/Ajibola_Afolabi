@@ -1,0 +1,39 @@
+[
+  {
+    "account_id": 500,
+    "alert_type": "large_transfer",
+    "amount": 450000,
+    "severity": "high",
+    "status": "open",
+    "device": { "type": "android", "ip": "102.89.12.4" },
+    "location": { "city": "Lagos", "country": "NG" },
+    "notes": ["Above daily limit", "New beneficiary"]
+  },
+  {
+    "account_id": 501,
+    "alert_type": "multiple_failed_logins",
+    "attempts": 7,
+    "severity": "medium",
+    "status": "open",
+    "device": { "type": "web", "ip": "41.58.20.9" },
+    "location": { "city": "Abuja", "country": "NG" }
+  },
+  {
+    "account_id": 500,
+    "alert_type": "foreign_login",
+    "severity": "high",
+    "status": "resolved",
+    "device": { "type": "ios", "ip": "185.22.4.17" },
+    "location": { "city": "London", "country": "GB" },
+    "resolved_by": "auditor_01"
+  },
+  {
+    "account_id": 777,
+    "alert_type": "unusual_withdrawal_time",
+    "amount": 80000,
+    "severity": "low",
+    "status": "open",
+    "device": { "type": "android", "ip": "197.210.5.33" },
+    "location": { "city": "Ibadan", "country": "NG" }
+  }
+]
